@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*---------------- HEADER -----------------*/
+.header {
+  background-color: #edf943;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  height: 10%;
+  font-size: 23px; }
+  .header .logo {
+    width: 30%; }
+  .header .nav-item {
+    padding: 5px; }
+    .header .nav-item:hover {
+      transform: scale(1.1);
+      background-color: #f0f77b;
+      background-image: linear-gradient(132deg, #f0f77b 0%, #1e312e 100%); }
+
+body {
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+
+.wrap {
+  width: 96vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.1)), url("../imagenes/Number1.png");
+  background-size: cover;
+  background-position: center; }
+  .wrap .wrap-texto {
+    color: white;
+    width: 50%; }
+
+/*------------------- PLANES ---------------------*/
+.planes {
+  margin-top: 50px;
+  text-align: center; }
+  .planes .nombres-planes {
+    margin-bottom: 20px; }
+
+.cards {
+  margin-top: 70px;
+  background-color: black;
+  border: solid 1.5px white; }
+  .cards .card-body {
+    color: white; }
+
+.color-boton {
+  background-color: #edf943; }
+
+/*-------------- CONTACTO ------------------*/
+.contacto {
+  margin-top: 70px; }
+  .contacto .informacion {
+    margin-top: 120px;
+    text-align: center; }
+    .contacto .informacion .parrafo {
+      margin-top: 50px;
+      text-align: left;
+      font-size: 18px; }
+  .contacto .formulario {
+    margin-top: 20px; }
+    .contacto .formulario .boton {
+      margin-top: 20px;
+      background-color: #edf943; }
+
+/*-------------- NOSOTROS -------------*/
+.actividades {
+  margin-top: 40px; }
+
+.imagenes:hover {
+  transform: scale(1.1); }
+
+.parrafo1 {
+  display: flex;
+  flex-wrap: wrap; }
+  .parrafo1 .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none; }
+  .parrafo1 .parrafo1 div {
+    /* flex: 1 1px;*/
+    flex: 1 1 300px;
+    margin-left: 15px;
+    text-align: justify; }
+    .parrafo1 .parrafo1 div .parrafo {
+      margin-left: 10px;
+      display: inline-block; }
+
+/*------------------- GALERIA -----------------------*/
+.imgHover {
+  transition: all 2s;
+  z-index: 2; }
+  .imgHover:hover {
+    filter: brightness(100%);
+    transform: scale(1.5);
+    z-index: 10;
+    overflow: hidden;
+    cursor: zoom-in;
+    align-self: center; }
+  .imgHover .imgHover:click {
+    filter: brightness(100%);
+    transform: scale(1.5);
+    width: 150%;
+    height: 150%;
+    z-index: 10;
+    cursor: zoom-in;
+    align-self: center; }
+  .imgHover .imgHover:focus {
+    filter: brightness(100%);
+    transform: scale(1.5);
+    z-index: 10;
+    cursor: zoom-in;
+    align-self: center; }
+
+/*------------- INSTALACIONES -----------------*/
+.container {
+  margin-top: 10px; }
+
+.marketing {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-bottom: 100px;
+  margin-top: 70px; }
+
+.featurette-divider {
+  margin: 5rem 0; }
+
+.fuenteNormal {
+  margin-top: 80px; }
+
+/*---------- FOOTER -------------*/
+.footer {
+  bottom: 0;
+  left: 0;
+  height: 5rem;
+  width: 100%;
+  color: white;
+  text-align: center; }
+  .footer .icon {
+    display: inline-block;
+    font-size: 3.5rem;
+    color: #fff;
+    animation: float infinite 4s ease-in-out; }
+    .footer .icon:hover {
+      transform: rotate(360deg);
+      transition: 0.4s; }
+  .footer .ri-facebook-circle-line {
+    animation-delay: 0.5s; }
+  .footer .ri-whatsapp-line {
+    animation-delay: 1s; }

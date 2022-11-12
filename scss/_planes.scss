@@ -1,0 +1,22 @@
+/*------------------- PLANES ---------------------*/
+.planes{
+    margin-top: 50px;
+    text-align: $centrado;
+    .nombres-planes{
+        margin-bottom: 20px;
+    }   
+}
+
+.cards{
+    margin-top: 70px;
+    background-color: black;
+    border: solid 1.5px white;
+    .card-body{
+        color: white;
+    
+    }
+}
+
+.color-boton{
+    background-color: rgb(237, 249, 67);
+}

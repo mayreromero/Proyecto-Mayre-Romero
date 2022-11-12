@@ -1,0 +1,26 @@
+/*---------- FOOTER -------------*/
+.footer{
+    bottom:0;
+    left:0;
+    height:5rem;
+    width:100%;
+    color: white;
+    text-align: $centrado;
+    .icon{
+        display: inline-block;
+        font-size: 3.5rem;
+        color: #fff;
+        animation: float infinite 4s ease-in-out ;
+        &:hover{
+            transform: rotate(360deg);
+            transition: 0.4s;
+        }
+    }
+    .ri-facebook-circle-line{
+        animation-delay: 0.5s; 
+    }
+    .ri-whatsapp-line{
+        animation-delay: 1s; 
+    }
+}
+

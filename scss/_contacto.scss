@@ -1,0 +1,20 @@
+/*-------------- CONTACTO ------------------*/
+.contacto{
+    margin-top: 70px;
+    .informacion{
+        margin-top: 120px;
+        text-align: $centrado;
+        .parrafo{
+            margin-top: 50px;
+            text-align: left;
+            font-size: 18px;
+        }
+    }
+    .formulario{
+        margin-top: 20px;
+        .boton{
+            margin-top: 20px;
+            background-color: rgb(237, 249, 67);    
+        }
+    }
+}

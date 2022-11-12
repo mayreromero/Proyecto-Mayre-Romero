@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: $fuente;
+   
+}
+
+.wrap{
+    width:96vw;
+    height:100vh;
+    display:flex;
+    align-items:$centrado;
+    justify-content:$centrado;
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.100)), url("../imagenes/Number1.png");
+    background-size: cover;
+    background-position: $centrado;
+    .wrap-texto{
+        color:white;
+        width: 50%;
+    }
+}

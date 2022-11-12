@@ -1,0 +1,20 @@
+/*---------------- HEADER -----------------*/
+.header{
+    background-color: rgb(237, 249, 67);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    height: 10%;
+    font-size: 23px;
+    .logo{
+        width: 30%;
+    }
+    .nav-item{
+        padding: 5px;
+        &:hover{
+            transform: scale(1.1);
+            background-color: #f0f77b;
+            background-image: linear-gradient(132deg, #f0f77b 0%, #1e312e 100%); 
+        }
+    }
+}

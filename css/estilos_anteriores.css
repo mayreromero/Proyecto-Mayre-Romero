@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+   
+}
+.header{
+    background-color: rgb(237, 249, 67);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    height: 10%;
+    font-size: 22px;
+}
+.nav-item{
+    padding: 5px;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    background-color: #f0f77b;
+    background-image: linear-gradient(132deg, #f0f77b 0%, #1e312e 100%); 
+}
+.logo{
+    width: 30%;
+}
+.wrap{
+    width:96vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.100)), url("../imagenes/Number1.png");
+    background-size: cover;
+    background-position: center;
+}
+.wrap-texto{
+    color:white;
+    width: 50%;
+}
+.container{
+    margin-top: 10px;
+}
+.marketing{
+    text-align: center;
+    background-color:black ;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.featurette-divider {
+    margin: 5rem 0; 
+}
+.fuenteNormal{
+    margin-top: 80px;
+}
+
+.footer{
+    bottom:0;
+    left:0;
+    height:5rem;
+    width:100%;
+    color: white;
+    text-align: center;
+}
+.icon:hover{
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+
+.icon{
+    display: inline-block;
+    font-size: 3.5rem;
+    color: #fff;
+    animation: float infinite 4s ease-in-out ;
+}
+.ri-facebook-circle-line{
+    animation-delay: 0.5s; 
+}
+
+.ri-whatsapp-line{
+    animation-delay: 1s; 
+}
+.planes{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.cards{
+    margin-top: 70px;
+    background-color: black;
+    border: solid 1.5px white;
+}
+.card-body{
+    color: white;
+
+}
+.color-boton{
+    background-color: rgb(237, 249, 67);
+}
+.nombres-planes{
+    margin-bottom: 20px;
+}
+.imagenes:hover{
+    transform: scale(1.1);
+}
+.contacto{
+    margin-top: 70px;
+}
+.parrafo{
+    margin-top: 50px;
+    text-align: left;
+    font-size: 18px;
+}
+.informacion{
+    margin-top: 120px;
+    text-align: center;
+}
+.formulario{
+    margin-top: 20px;
+}
+.boton{
+    margin-top: 20px;
+    background-color: rgb(237, 249, 67);    
+}
+.novedades{
+    margin-top: 100px;
+
+}
+/*NOSOTROS*/
+.actividades{
+    margin-top: 40px;
+}
+
+.parrafo{
+    
+    margin-left: 10px;
+    display: inline-block;
+}
+.parrafo1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.parrafo1 div{
+   /* flex: 1 1px;*/
+   flex: 1 1 300px;
+    margin-left: 15px;
+    text-align: justify;
+}
+imgHover{
+    transition: all 2s;
+    z-index: 2;
+  }
+  .imgHover:hover{
+    filter: brightness(100%);
+    transform: scale(1.5);
+    z-index: 10;
+    overflow:hidden;
+    cursor:zoom-in;
+    align-self: center;
+  }
+  .imgHover:click{
+    filter: brightness(100%);
+    transform: scale(1.5);
+    width:150%;
+    height:150%;
+    z-index: 10;
+    cursor:zoom-in;
+    align-self: center;
+  }
+  .imgHover:focus{
+    filter: brightness(100%);
+    transform: scale(1.5);
+    z-index: 10;
+    cursor:zoom-in;
+    align-self: center;
+ }
+
+
+
+   
+   
+   
+   
+
+
+
+
+
+
